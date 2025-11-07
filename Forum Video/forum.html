@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Pendaftaran</title>
+    <link rel="stylesheet" href="graphic.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Silakan Daftar Forum Tersebut</h1>
+        </header>
+
+        <main>
+            <h2>Mendaftar</h2>
+            <p>Gratis, sampai kapan pun</p>
+
+            <form id="signupForum">
+                <div class="row">
+                    <div class="input-group">
+                        <label for="firstName">Nama Depan</label>
+                        <input type="text" id="firstName" placeholder="Masukkan Nama Depan" size="50">
+                    </div>
+                    <div class="input-group">
+                        <label for="lastName">Nama Belakang</label>
+                        <input type="text" id="lastName" placeholder="Masukkan Nama Belakang" size="50">
+                    </div>
+                </div>
+
+                <div class="input-full">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Masukkan Email Anda">
+                </div>
+
+                <div class="input-full">
+                    <label for="konfirmasiEmail">Konfirmasi Email</label>
+                    <input type="text" id="konfirmasiEmail" placeholder="Masukkan Email Konfirmasi">
+                </div>
+
+                <div class="input-full">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Masukkan Password">
+                </div>
+
+                <div class="input-full">
+                    <label for="tanggalLahir">Tanggal Lahir</label>
+                    <div class="date-select">
+                        <select>
+                            <option value="Pilih">Pilih "Tanggal"</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+
+                        <select>
+                            <option value="Pilih">Pilih "Bulan"</option>
+                            <option value="Jan">Januari</option>
+                            <option value="Februari">Februari</option>
+                        </select>
+
+                        <select>
+                            <option value="Pilih">Pilih "Tahun"</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-full">
+                    <label for="jenisKelamin">Jenis Kelamin</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="gender" value="male"> Laki-Laki</label>
+                        <label><input type="radio" name="gender" value="female"> Perempuan</label>
+                    </div>
+                </div>
+
+                <div class="terms">
+                    <label>
+                        <input type="checkbox" id="terms">
+                        Dengan mengklik mendaftar, Anda menyetujui <a href="#">ketentuan</a> kami dan bahwa
+                        Anda telah membaca kebijakan <a href="#">penggunaan data</a>, termasuk <a href="#">penggunaan Cokkie</a>.
+                    </label>
+                </div>
+                <footer>
+                    <div class="buttons">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </footer>
+            </form>
+        </main>
+    </div>
+</body>
+<script src="struc.js"></script>
+</html>
